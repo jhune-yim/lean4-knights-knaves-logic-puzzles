@@ -1,0 +1,16 @@
+name = "knights_knaves"
+version = "0.1.0"
+defaultTargets = ["knights_knaves"]
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+
+# This tells Lake to compile KnightsKnaves.lean file and its imports
+[[lean_lib]]
+name = "KnightsKnaves"
+
+# This tells Lake to build the executable from Main.lean
+[[lean_exe]]
+name = "knights_knaves"
+root = "Main"

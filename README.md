@@ -26,5 +26,4 @@ Using propositional logic and Lean 4, we prove:
 That is, the final result is:
 
 ```lean
-\neg A \wedge B \wedge C
-
+¬ A ∧ B ∧ C
